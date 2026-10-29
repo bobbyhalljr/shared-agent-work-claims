@@ -1,0 +1,70 @@
+WEBVTT
+
+00:00:00.160 --> 00:00:02.320
+Give one Grok Bot research.
+
+00:00:02.560 --> 00:00:05.480
+Give another editing. Sounds like a team.
+
+00:00:05.760 --> 00:00:08.960
+But here is the engineering detail I would check first: what
+
+00:00:09.040 --> 00:00:12.640
+do they share? According to the official documentation, Bots
+
+00:00:12.680 --> 00:00:15.840
+on your account share a computer, including files, signed-in
+
+00:00:16.000 --> 00:00:18.720
+browser sessions, and command-line credentials.
+
+00:00:18.800 --> 00:00:20.773
+Each Bot has its own screen.
+
+00:00:20.827 --> 00:00:23.840
+That does not make each one a separate security boundary.
+
+00:00:23.920 --> 00:00:25.680
+That gives you two questions.
+
+00:00:25.920 --> 00:00:28.720
+Permission: may this actor change the resource?
+
+00:00:28.840 --> 00:00:32.080
+Coordination: which authorized actor owns the change right
+
+00:00:32.160 --> 00:00:35.680
+now? A role name alone does not answer either one.
+
+00:00:35.760 --> 00:00:39.040
+In my independent TypeScript example, a worker pauses.
+
+00:00:39.120 --> 00:00:42.880
+Its claim expires. Another worker saves a reviewed report.
+
+00:00:42.960 --> 00:00:44.800
+Then the old worker comes back.
+
+00:00:44.880 --> 00:00:48.400
+Its late write gets refused, so the reviewed result survives.
+
+00:00:48.480 --> 00:00:51.227
+The example has twenty-three passing tests.
+
+00:00:51.253 --> 00:00:54.400
+It is an in-memory teaching tool, not a Grok Bot integration
+
+00:00:54.480 --> 00:00:56.040
+or a product benchmark.
+
+00:00:56.080 --> 00:00:58.880
+The practical lesson is to make ownership and version checks
+
+00:00:59.400 --> 00:01:02.720
+explicit. Before you add another AI teammate, decide what they
+
+00:01:02.800 --> 00:01:06.360
+share, who owns the result, and who gets the last write.
+
+00:01:06.400 --> 00:01:09.920
+Read the full article on my blog at B H J R dot dev.
