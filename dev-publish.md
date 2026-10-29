@@ -16,7 +16,9 @@ This is a documentation-based look at Grok Bot as of October 29, 2026. I also bu
 
 <img src="https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/t4sbuz9zdn2nbdj3w6vb.png" alt="Different Bot jobs on one account-shared computer. Original explanatory artwork." width="1600" height="900">
 
-[Watch the narrated companion](https://raw.githubusercontent.com/bobbyhalljr/shared-agent-work-claims/main/video/grok-bot-16x9-1x.mp4) · Bobby-alt narration, normal speed, captions included.
+{% youtube NLYatEzBvkI %}
+
+Bobby-alt narration, normal speed, captions included. [Watch on YouTube](https://www.youtube.com/watch?v=NLYatEzBvkI).
 
 ## What Grok Bot actually adds
 
